@@ -322,11 +322,4 @@ public class RNPushNotification extends ReactContextBaseJavaModule implements Ac
       }
     }
 
-    @ReactMethod
-    /**
-     * Delete channel with a given id
-     */
-    public void deleteChannel(String channel_id) {
-      mRNPushNotificationHelper.deleteChannel(channel_id);
-    }
-}
+
